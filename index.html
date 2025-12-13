@@ -1,0 +1,166 @@
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Polaris Academy</title>
+  
+  <link rel="icon" type="image/png" href="images/IMG_2568 2.PNG" />
+  <link rel="apple-touch-icon" href="images/IMG_2568 2.PNG" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container flex-between">
+      <a href="index.html" class="logo">
+        <span>Polaris Academy</span>
+        <img class="logo-icon" src="images/IMG_2568 2.PNG">
+        </a>
+      <nav id="nav" class="nav">
+        <a href="index.html" class="Active">خانه</a>        
+        <a href="Article.html">مقالات</a>
+        <a href="about.html">درباره ما</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>یادگیری هوشمندانه</h1>
+      <p>پلاریس همراه همیشگی شما در مسیر یادگیری خواهد بود</p>
+      <form class="subscribe-form">
+        <input type="email" placeholder="نشانی ایمیل" required>
+        <button type="submit">عضو شوید</button>
+      </form>
+    </div>
+    <br>
+  </section> <section class="call-to-action-section">
+    <div class="container cta-flex-container">
+      
+      <div class="cta-image-wrapper">
+        <img src="images/IMG_5238.JPG" alt="تصویر مرتبط با یادگیری" class="cta-image">
+      </div>
+
+      <div class="cta-text-content">
+        <h3>یادگیری اثربخش را شروع کنید!</h3>
+        <p>تکنیک‌ها و ابزارهایی که مسیر آگاهی شما را روشن می‌کنند.</p>
+      </div>
+      
+      
+    </div>
+  </section>
+  <br><br>
+    
+    <h2 class="section-title">آخرین مقالات</h2>
+<section class="section-highlight">
+  <div class="container">
+    <br><br>
+
+    <!-- Swiper -->
+    <div class="swiper articles-swiper">
+      <div class="swiper-wrapper">
+
+
+        <!-- مقاله ۲ -->
+        <div class="swiper-slide">
+          <article class="card card-icon-title">
+            <div class="icon-title-row">
+              <img src="Icons/check-square 6.svg" alt="">
+              <h3>بار شناختی</h3>
+            </div><br>
+            <p>بار شناختی زمانی کاهش می‌یابد که اطلاعات جدید به‌درستی با دانسته‌های قبلی ترکیب شوند..</p><br>
+            <a href="CognitiveLoad.html" class="read-more">بیشتر بخوانید </a>
+          </article>
+        </div>
+
+        <!-- مقاله ۳ -->
+        <div class="swiper-slide">
+          <article class="card card-icon-title">
+            <div class="icon-title-row">
+              <img src="Icons/check-square 6.svg" alt="">
+              <h3>تکنیک مطالعه</h3>
+            </div><br>
+            <p>با هم قراره سبک تازه‌ای از یادگیری را تجربه کنیم؛ روش‌هایی برای فهم بهتر، مرور مؤثرتر، و کاهش استرس فراموشی.</p><br>
+            <a href="SmartStudy.html" class="read-more">بیشتر بخوانید</a>
+          </article>
+        </div>
+
+        <!-- مقاله ۴ -->
+        <div class="swiper-slide">
+          <article class="card card-icon-title">
+            <div class="icon-title-row">
+              <img src="Icons/check-square 6.svg" alt="">
+              <h3>تصویر کلی</h3>
+            </div><br>
+            <p>در مطالعه‌ی هوشمندانه، اولین قدم همیشه دیدن تصویر کلی و توانایی تشخیص پیام مرکزی هر متن است.</p><br>
+            <a href="BigPicture.html" class="read-more">بیشتر بخوانید </a>
+          </article>
+        </div>
+
+
+        <!-- مقاله ۱ -->
+        <div class="swiper-slide">
+          <article class="card card-icon-title">
+            <div class="icon-title-row">
+              <img src="Icons/check-square 6.svg" alt="">
+              <h3>ماهیت انگیزه</h3>
+            </div><br>
+            <p>انگیزه تنها یک میل گذرا نیست، بلکه نیرویی درونی است که مسیر تلاش‌های ما را هموار می‌کند.</p><br>
+            <a href="Motivation.html" class="read-more">بیشتر بخوانید</a>
+          </article>
+        </div>
+
+        <!-- اگر مقاله جدید اضافه کردی، فقط یک swiper-slide دیگر اضافه کن -->
+
+      </div>
+
+      <!-- دکمه‌های ناوبری و pagination -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+  <footer class="site-footer-custom">
+‎    <!-- بخش توضیحاتی + فرم خبرنامه -->
+    <div class="footer-newsletter">
+      <div class="container flex-between">
+        <div class="footer-newsletter__text">
+          
+          <p>در خبرنامه عضو شوید.</p>
+        </div><br>
+        <form action="#" class="subscribe-form footer-newsletter__form">
+          <input type="email" placeholder="نشانی ایمیل" required>
+          <button type="submit">عضو شوید</button>
+        </form>
+‎       <!-- آیکون‌های شبکه‌های اجتماعی -->
+        <div class="footer-social-icons">
+          <a href="https://t.me/+cGjcIqG-dCdjYTk0"><img src="Icons/telegram-white-icon-2.png" alt="Telegram"></a>
+          <a href="#"><img src="Icons/instagram-white-icon.png" alt="Instagram"></a>
+‎          <!-- بقیه آیکون‌ها اگر هست اضافه کن -->       
+      </div>
+    </div>
+  
+‎    
+‎    <!-- بخش کپی‌رایت -->
+    <div class="footer-bottom">
+      <p>© 2025 Polaris Academy – همه حقوق محفوظ است.</p>
+    </div>
+  </footer>
+  <!-- اول Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
