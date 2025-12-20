@@ -637,8 +637,10 @@ ul, ol {
   width: 100%;
   max-width: 380px;
   margin: 0 auto;
-  height: 0 auto;
-  min-height: 280 px;
+  display: flex !important;
+  flex-direction: column;
+  height: 50%; /* باعث می‌شود کارت تمام ارتفاع در دسترس اسلاید را بگیرد */
+  min-height: 320px; /* یک حداقل ارتفاع ثابت برای زیبایی بیشتر */
   background: #fff;
   border-radius: 12px;
   padding: 2rem 1.5rem;
