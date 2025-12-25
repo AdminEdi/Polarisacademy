@@ -821,6 +821,31 @@ ul, ol {
 
 }
 
+/* تنظیمات لیست مقالات برای نمایش بولت پوینت */
+.article-bullet-list {
+  list-style-type: disc; /* نمایش دایره توپر */
+  padding-right: 25px;   /* ایجاد فاصله برای اینکه بولت پوینت‌ها بیرون کادر نرن */
+  margin-top: 20px;
+}
+
+.article-bullet-list li {
+  margin-bottom: 15px;   /* فاصله بین هر مقاله */
+  color: #D45839;        /* رنگ خودِ دایره (بولت پوینت) */
+}
+
+.article-bullet-list li a {
+  text-decoration: none;
+  color: #333;           /* رنگ متن لینک */
+  transition: 0.3s;
+}
+
+.article-bullet-list li a:hover {
+  color: #D45839;        /* تغییر رنگ متن وقتی موس میره روش */
+}
+
+
+
+
 /* مدیریت ریسپانسیو (برای موبایل) */
 @media (max-width: 768px) {
   .article-image-container {
