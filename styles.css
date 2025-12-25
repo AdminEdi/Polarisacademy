@@ -884,7 +884,10 @@ ul, ol {
   color: #0f0c0c;
   text-decoration: none;
   display: block;
+  width: fit-content;
   margin-bottom: 5px;
+  margin-right:0;
+  margin-left:auto;
 }
 
 .article-arrow-list li p {
