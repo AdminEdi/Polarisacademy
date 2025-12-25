@@ -861,11 +861,16 @@ ul, ol {
   padding-right: 60px;   /* جابه‌جایی کل لیست به سمت راست صفحه */
   margin-top: 30px;
   text-align: right;     /* اطمینان از راست‌چین بودن متن */
+  display: flex;
+  flex-direction: column;
+  align-item: flex-end;
+  width: 100%;
 }
 
 .article-arrow-list li {
   position: relative;
   margin-bottom: 25px;   /* فاصله بین هر مقاله */
+  width: fit-content;
 }
 
 /* ایجاد فلش به جای بولت پوینت */
