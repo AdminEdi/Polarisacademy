@@ -854,55 +854,26 @@ ul, ol {
   }
 }
 
-/* استایل اختصاصی برای لیست مقالات - اصلاح شده */
-.article-arrow-list {
-  list-style-type: none !important; /* حذف حتمی نقطه ها */
-  padding-right: 0;   
-  margin-top: 30px;
-  text-align: right;     
-  display: flex !important;
-  flex-direction: column;
-  align-items: flex-start; /* این خط لیست را به سمت راست (در حالت RTL) هدایت می‌کند */
-  width: 100%;
-  direction: rtl;
+/* تنظیمات لیست مقالات برای نمایش بولت پوینت */
+.article-bullet-list {
+  list-style-type: disc; /* نمایش دایره توپر */
+  padding-right: 25px;   /* ایجاد فاصله برای اینکه بولت پوینت‌ها بیرون کادر نرن */
+  margin-top: 20px;
 }
 
-.article-arrow-list li {
-  position: relative;
-  margin-bottom: 25px;   
-  padding-right: 35px; /* ایجاد فضا برای قرارگیری فلش */
-  width: 100%; /* اشغال عرض کامل برای جلوگیری از فشرده شدن */
+.article-bullet-list li {
+  margin-bottom: 15px;   /* فاصله بین هر مقاله */
+  color: #D45839;        /* رنگ خودِ دایره (بولت پوینت) */
 }
 
-/* ایجاد فلش به جای بولت پوینت */
-.article-arrow-list li::before {
-  content: "\2190";      /* کد یونیکد فلش */
-  color: #e88066;        
-  position: absolute;
-  right: 0;              /* چسباندن فلش به لبه سمت راست */
-  top: 0;
-  font-size: 1.4rem;
-  line-height: 1.2;
-}
-
-.article-arrow-list li a {
-  font-size: 1.1rem;
-  color: #0f0c0c;
+.article-bullet-list li a {
   text-decoration: none;
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-  /* حذف مارجین‌های اضافی که قبلاً نوشته بودید */
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+  color: #333;           /* رنگ متن لینک */
+  transition: 0.3s;
 }
 
-.article-arrow-list li p {
-  color: #555;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin: 0;
-  text-align: right;
+.article-bullet-list li a:hover {
+  color: #D45839;        /* تغییر رنگ متن وقتی موس میره روش */
 }
 
 
