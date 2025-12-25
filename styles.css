@@ -853,3 +853,46 @@ ul, ol {
       margin: 2rem auto; /* کاهش فاصله عمودی در موبایل */
   }
 }
+
+
+/* استایل اختصاصی برای لیست مقالات */
+.article-arrow-list {
+  list-style-type: none; /* حذف نقطه های قبلی */
+  padding-right: 60px;   /* جابه‌جایی کل لیست به سمت راست صفحه */
+  margin-top: 30px;
+  text-align: right;     /* اطمینان از راست‌چین بودن متن */
+}
+
+.article-arrow-list li {
+  position: relative;
+  margin-bottom: 25px;   /* فاصله بین هر مقاله */
+}
+
+/* ایجاد فلش به جای بولت پوینت */
+.article-arrow-list li::before {
+  content: "\2190";      /* کد یونیکد برای فلش صلب */
+  color: #e88066;        /* رنگ نارنجی برند شما */
+  position: absolute;
+  right: -30px;          /* تنظیم فاصله فلش از متن */
+  top: 0;
+  font-size: 1.2rem;
+}
+
+.article-arrow-list li a {
+  
+  font-size: 1.1rem;
+  color: #0f0c0c;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.article-arrow-list li p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+
